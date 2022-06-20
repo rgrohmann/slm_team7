@@ -5,6 +5,4 @@ public class MaintenanceMonitor {
     private String message = "";
 
 
-
-
 }
