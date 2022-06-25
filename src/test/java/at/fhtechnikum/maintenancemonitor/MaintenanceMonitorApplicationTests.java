@@ -1,5 +1,6 @@
 package at.fhtechnikum.maintenancemonitor;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +8,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MaintenanceMonitorApplicationTests {
 
     @Test
-    void contexLoads(){
-
+    void getMessageTest(){
+        //arrange
+        MaintenanceMonitor maint = new MaintenanceMonitor();
+        //act
+        String messageTest = maint.getMessage();
+        //assert
+        Assertions.assertEquals("", messageTest);
     }
 }
