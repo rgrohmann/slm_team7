@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MaintenanceMonitorApplicationTests {
 
     @Test
-    void contextLoads() {
-    }
+    void contexLoads(){
 
+    }
 }
