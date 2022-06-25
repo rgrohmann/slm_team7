@@ -8,4 +8,8 @@ public class MaintenanceMonitor {
         return message;
     }
 
+    public void updateMessage(String input){
+        this.message = input;
+    }
+
 }
