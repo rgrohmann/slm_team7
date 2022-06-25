@@ -31,8 +31,7 @@ public class MyRestController {
         return modelAndView;
     }
 }
-
-    @GetMapping("/getMessage")
+    @GetMapping("/api/maintenanceMode")
     public String getMessage(){
         return message;
     }
@@ -44,6 +43,6 @@ public class MyRestController {
 
     @PutMapping("/resetMessage")
     public void resetMessage() {
-        this.message = "";
+        this.message = "-";
     }
 }
