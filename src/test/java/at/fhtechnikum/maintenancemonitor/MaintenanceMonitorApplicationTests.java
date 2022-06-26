@@ -37,4 +37,6 @@ class MaintenanceMonitorApplicationTests {
         //assert
         Assertions.assertEquals("-", maint.getMessage());
     }
+
+    //READY
 }
