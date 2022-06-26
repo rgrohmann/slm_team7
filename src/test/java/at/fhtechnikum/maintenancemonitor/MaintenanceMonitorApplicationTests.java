@@ -35,6 +35,6 @@ class MaintenanceMonitorApplicationTests {
         maint.updateMessage("online");
         maint.resetMessage();
         //assert
-        Assertions.assertEquals("", maint.getMessage());
+        Assertions.assertEquals("-", maint.getMessage());
     }
 }
