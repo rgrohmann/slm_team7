@@ -13,6 +13,6 @@ public class MaintenanceMonitor {
     }
 
     public void resetMessage(){
-        this.message = "";
+        this.message = "-";
     }
 }

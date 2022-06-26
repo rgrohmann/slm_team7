@@ -11,21 +11,21 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 class MaintenanceMonitorController {
 
-    private String message;
+    private MaintenanceMonitor maintenancemonitor = new MaintenanceMonitor();
 
     @GetMapping("/api/maintenanceMode")
     public String getMessage() {
-        return message;
+        return maintenancemonitor.getMessage();
     }
 
     @PutMapping("/updateMessage/{message}")
     public void updateMessage(@PathVariable String message) {
-        this.message = message;
+        maintenancemonitor.updateMessage(message);
     }
 
     @PutMapping("/resetMessage")
     public void resetMessage() {
-        this.message = "-";
+        maintenancemonitor.resetMessage();
     }
 
 public class MyRestController {
