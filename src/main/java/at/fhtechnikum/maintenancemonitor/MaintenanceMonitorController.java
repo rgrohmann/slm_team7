@@ -28,13 +28,12 @@ class MaintenanceMonitorController {
         maintenancemonitor.resetMessage();
     }
 
-public class MyRestController {
+
     @RequestMapping("/")
     public ModelAndView welcome() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("Index.html");
         return modelAndView;
     }
-}
 
 }
