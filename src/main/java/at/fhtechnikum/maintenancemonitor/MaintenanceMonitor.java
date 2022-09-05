@@ -5,6 +5,7 @@ public class MaintenanceMonitor {
     private String message = "";
 
     private int zahl = 0;
+    //unnützer Kommentar
 
     public String getMessage(){
         return message;
