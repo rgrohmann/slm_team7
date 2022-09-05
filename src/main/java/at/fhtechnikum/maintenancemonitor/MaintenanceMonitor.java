@@ -4,6 +4,8 @@ public class MaintenanceMonitor {
 
     private String message = "";
 
+    private int zahl = 0;
+
     public String getMessage(){
         return message;
     }
